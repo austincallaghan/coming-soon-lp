@@ -1,0 +1,129 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade');
+
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+  background-color: #000000;
+  margin: 0;
+}
+
+
+.name-badge {
+  width: 155px;
+  height: 210px;
+  background-color: #b1bdca;
+  position: absolute;
+  left: 120px;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-image {
+  width: 59px;
+  margin-top: 60px;
+}
+
+
+.name {
+  font-size: 23px;
+  text-align: center;
+  font-family: Bungee;
+}
+
+.lion-stone {
+  margin-top: 75px;
+  padding-left: 40%;
+}
+
+.lion-image {
+  width: 280px;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  color: gray;
+}
+
+.main-text h4 {
+  font-size: 65px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-family: Permanent Marker;
+  color: #b1bdca;
+}
+
+.main-text h6 {
+  font-size: 35px;
+  margin-top: 5px;
+  font-family: Bubblegum Sans;
+  color: #b1bdca;
+  letter-spacing: 2px;
+}
+
+.form {
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 380px;
+  height: 37px;
+  border-radius: 20px;
+  border: none;
+  background-color: #333333;
+  font-family: Permanent Marker;
+  color: #778691;
+  font-size: 14px;
+  padding-left: 30px;
+  outline: none;
+}
+
+::placeholder {
+  color: #778691;
+  font-family: Permanent Marker;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+button {
+  position: absolute;
+  position: right;
+  width: 70px;
+  height: 22px;
+  margin-left: 140px;
+  z-index: 1;
+  background-color: #778691;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-arrow {
+  width: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
